@@ -4,7 +4,7 @@ pipeline {
 		maven 'Maven 3'
 		jdk 'jdk1.8.0_191'
 	}
-        satges{
+        stages{
              stage('Build'){
 
              	steps{
